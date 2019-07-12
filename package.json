@@ -1,0 +1,21 @@
+{
+  "name": "dbrestserver",
+  "version": "1.0.0",
+  "description": "rest server for communicating with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "nodemon": "^1.18.9"
+  }
+}
